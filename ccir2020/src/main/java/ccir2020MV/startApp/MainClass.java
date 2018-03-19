@@ -30,9 +30,9 @@ public class MainClass {
 	public static void main(String[] args) {
 		BufferedReader in = null;
 		try {
-			RepositoryContact contactRep = new RepositoryContactFile();
-			RepositoryUser userRep = new RepositoryUserFile();
-			RepositoryActivity activityRep = new RepositoryActivityFile(
+			RepositoryContactFile contactRep = new RepositoryContactFile();
+			RepositoryUserFile userRep = new RepositoryUserFile();
+			RepositoryActivityFile activityRep = new RepositoryActivityFile(
 					contactRep);
 
 			User user = null;
@@ -79,7 +79,7 @@ public class MainClass {
 		System.out.println("Program over and out\n");
 	}
 
-	private static void afisActivitate(RepositoryActivity activityRep,
+	private static void afisActivitate(RepositoryActivityFile activityRep,
 			BufferedReader in, User user) {
 		try {
 			System.out.printf("Afisare Activitate: \n");
@@ -108,8 +108,8 @@ public class MainClass {
 		}
 	}
 
-	private static void adaugActivitate(RepositoryActivity activityRep,
-			RepositoryContact contactRep, BufferedReader in, User user) {
+	private static void adaugActivitate(RepositoryActivityFile activityRep,
+			RepositoryContactFile contactRep, BufferedReader in, User user) {
 		try {
 			System.out.printf("Adauga Activitate: \n");
 			System.out.printf("Descriere: ");
@@ -150,7 +150,7 @@ public class MainClass {
 
 	}
 
-	private static void adaugContact(RepositoryContact contactRep,
+	private static void adaugContact(RepositoryContactFile contactRep,
 			BufferedReader in) {
 
 		try {
@@ -176,6 +176,7 @@ public class MainClass {
 			else
 				System.out.printf("Eroare: %s\n" + e.getMessage());
 		}
+		contactRep.saveContracts();//nu era
 
 	}
 

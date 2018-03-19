@@ -52,7 +52,7 @@ public class Contact {
 	public static Contact fromString(String str, String delim) throws InvalidFormatException
 	{
 		String[] s = str.split(delim);
-		if (s.length!=4) throw new InvalidFormatException("Cannot convert", "Invalid data");
+		if (s.length!=3) throw new InvalidFormatException("Cannot convert", "Invalid data");
 		if (!validTelefon(s[2])) throw new InvalidFormatException("Cannot convert", "Invalid phone number");
 		if (!validName(s[0])) throw new InvalidFormatException("Cannot convert", "Invalid name");
 		if (!validAddress(s[1])) throw new InvalidFormatException("Cannot convert", "Invalid address");

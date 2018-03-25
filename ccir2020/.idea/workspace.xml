@@ -21,8 +21,8 @@
       <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/startApp/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1450">
-              <caret line="129" column="41" lean-forward="true" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
+            <state relative-caret-position="2997">
+              <caret line="129" column="41" lean-forward="false" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,174 +30,156 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/ccir2020MV.startApp.MainClass" pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/ccir2020MV.startApp.MainClass">
+      <file leaf-file-name="activities.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/activities.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepositoryActivityFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/repository/classes/RepositoryActivityFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2830#2840#0" expanded="true" />
+                <element signature="e#2974#2984#0" expanded="true" />
+                <element signature="e#3456#3466#0" expanded="true" />
+                <element signature="e#3887#3897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/ccir2020MV.model.repository.classes.RepositoryActivityFile" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/ccir2020MV.model.repository.classes.RepositoryActivityFile">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement>ccir2020MV.startApp.MainClass</OriginalElement>
+              <OriginalElement>ccir2020MV.model.repository.classes.RepositoryActivityFile</OriginalElement>
               <nodes>
-                <node x="850.4538949275361" y="1252.0">ccir2020MV.model.repository.interfaces.RepositoryActivity</node>
-                <node x="504.4547877846794" y="1927.0">ccir2020MV.startApp.MainClass</node>
-                <node x="10.5" y="1265.5">ccir2020MV.model.repository.interfaces.RepositoryUser</node>
-                <node x="692.6258928571431" y="1528.0">ccir2020MV.model.repository.classes.RepositoryActivityFile</node>
-                <node x="895.75" y="0.0">ccir2020MV.exceptions.InvalidFormatException</node>
-                <node x="10.5" y="1541.5">ccir2020MV.model.repository.classes.RepositoryUserFile</node>
-                <node x="100.92589285714303" y="907.0">ccir2020MV.model.base.User</node>
-                <node x="820.5" y="894.0">ccir2020MV.model.base.Activity</node>
-                <node x="652.2547877846793" y="645.0">ccir2020MV.model.repository.interfaces.RepositoryContact</node>
-                <node x="457.800892857143" y="907.0">ccir2020MV.model.repository.classes.RepositoryContactFile</node>
-                <node x="912.75" y="168.0">ccir2020MV.model.base.Contact</node>
+                <node x="570.5106630824373" y="1074.0">ccir2020MV.model.repository.interfaces.RepositoryActivity</node>
+                <node x="554.260528673835" y="1729.0">ccir2020MV.startApp.MainClass</node>
+                <node x="0.0" y="1087.5">ccir2020MV.model.repository.interfaces.RepositoryUser</node>
+                <node x="622.6285842293906" y="1350.0">ccir2020MV.model.repository.classes.RepositoryActivityFile</node>
+                <node x="112.5866935483873" y="1363.5">ccir2020MV.model.repository.classes.RepositoryUserFile</node>
+                <node x="199.21527777777783" y="729.0">ccir2020MV.model.base.User</node>
+                <node x="484.0106630824373" y="467.0">ccir2020MV.model.repository.interfaces.RepositoryContact</node>
+                <node x="734.3035842293907" y="716.0">ccir2020MV.model.base.Activity</node>
+                <node x="866.7991935483872" y="0.0">ccir2020MV.model.base.Contact</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.base.Contact">
-                  <point x="196.29166666666674" y="-85.5" />
-                  <point x="1037.2464544513462" y="1887.0" />
-                  <point x="1267.1603131469979" y="1887.0" />
-                  <point x="1267.1603131469979" y="625.0" />
-                  <point x="1151.607142857143" y="625.0" />
-                  <point x="86.85714285714289" y="208.5" />
-                </edge>
-                <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.repository.classes.RepositoryActivityFile">
-                  <point x="-28.041666666666742" y="-85.5" />
-                  <point x="812.9131211180127" y="1907.0" />
-                  <point x="786.3758928571431" y="1907.0" />
-                  <point x="-93.75" y="154.5" />
+                  <point x="299.1111111111112" y="-85.5" />
+                  <point x="1189.8716397849462" y="1709.0" />
+                  <point x="1164.8035842293907" y="1709.0" />
+                  <point x="1164.8035842293907" y="437.0" />
+                  <point x="1140.399193548387" y="437.0" />
+                  <point x="121.59999999999988" y="208.5" />
                 </edge>
                 <edge source="ccir2020MV.model.repository.classes.RepositoryUserFile" target="ccir2020MV.model.repository.interfaces.RepositoryUser">
-                  <point x="0.0" y="-141.0" />
+                  <point x="-123.0" y="-141.0" />
+                  <point x="174.0866935483873" y="1330.0" />
+                  <point x="184.5" y="1330.0" />
                   <point x="0.0" y="99.5" />
+                </edge>
+                <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.repository.classes.RepositoryActivityFile">
+                  <point x="1.1368683772161603E-13" y="-85.5" />
+                  <point x="890.7605286738351" y="1709.0" />
+                  <point x="903.8785842293906" y="1709.0" />
+                  <point x="93.75" y="154.5" />
                 </edge>
                 <edge source="ccir2020MV.model.base.Activity" target="ccir2020MV.model.repository.interfaces.RepositoryContact">
                   <point x="-136.33333333333337" y="-154.0" />
-                  <point x="888.6666666666665" y="869.0" />
-                  <point x="905.5881211180125" y="869.0" />
-                  <point x="101.33333333333326" y="99.5" />
+                  <point x="802.4702508960572" y="691.0" />
+                  <point x="712.0106630824373" y="691.0" />
+                  <point x="76.0" y="99.5" />
                 </edge>
                 <edge source="ccir2020MV.model.repository.interfaces.RepositoryActivity" target="ccir2020MV.model.base.Activity">
                   <point x="0.0" y="-113.0" />
-                  <point x="1037.953894927536" y="1232.0" />
-                  <point x="1025.0" y="1232.0" />
-                  <point x="0.0" y="154.0" />
+                  <point x="758.0106630824373" y="1054.0" />
+                  <point x="775.2035842293906" y="1054.0" />
+                  <point x="-163.60000000000002" y="154.0" />
                 </edge>
                 <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.base.Activity">
-                  <point x="84.125" y="-85.5" />
-                  <point x="925.0797877846794" y="1867.0" />
-                  <point x="1235.953894927536" y="1867.0" />
-                  <point x="1235.953894927536" y="1232.0" />
-                  <point x="1106.8000000000002" y="1232.0" />
-                  <point x="81.80000000000018" y="154.0" />
-                </edge>
-                <edge source="ccir2020MV.model.repository.classes.RepositoryContactFile" target="ccir2020MV.model.base.Contact">
-                  <point x="38.0" y="-141.0" />
-                  <point x="647.800892857143" y="869.0" />
-                  <point x="584.9603131469979" y="869.0" />
-                  <point x="584.9603131469979" y="615.0" />
-                  <point x="977.8928571428571" y="615.0" />
-                  <point x="-86.85714285714289" y="208.5" />
+                  <point x="74.77777777777794" y="-85.5" />
+                  <point x="965.5383064516129" y="1699.0" />
+                  <point x="1055.0106630824373" y="1699.0" />
+                  <point x="1055.0106630824373" y="1054.0" />
+                  <point x="1020.6035842293907" y="1054.0" />
+                  <point x="81.80000000000007" y="154.0" />
                 </edge>
                 <edge source="ccir2020MV.model.base.Activity" target="ccir2020MV.model.base.Contact">
-                  <point x="136.33333333333326" y="-154.0" />
-                  <point x="1161.3333333333333" y="869.0" />
-                  <point x="1098.6666666666665" y="869.0" />
-                  <point x="1098.6666666666665" y="625.0" />
-                  <point x="1108.1785714285713" y="625.0" />
-                  <point x="43.42857142857133" y="208.5" />
-                </edge>
-                <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.exceptions.InvalidFormatException">
-                  <point x="308.4583333333335" y="-85.5" />
-                  <point x="1149.413121118013" y="1907.0" />
-                  <point x="1289.1603131469979" y="1907.0" />
-                  <point x="1289.1603131469979" y="143.0" />
-                  <point x="1177.4166666666667" y="143.0" />
-                  <point x="112.66666666666674" y="59.0" />
+                  <point x="0.0" y="-154.0" />
+                  <point x="938.8035842293907" y="691.0" />
+                  <point x="971.4250000000001" y="691.0" />
+                  <point x="971.4250000000001" y="447.0" />
+                  <point x="957.9991935483872" y="447.0" />
+                  <point x="-60.799999999999955" y="208.5" />
                 </edge>
                 <edge source="ccir2020MV.model.repository.interfaces.RepositoryUser" target="ccir2020MV.model.base.User">
                   <point x="0.0" y="-99.5" />
-                  <point x="195.0" y="1232.0" />
-                  <point x="220.17589285714303" y="1232.0" />
-                  <point x="-39.75" y="141.0" />
-                </edge>
-                <edge source="ccir2020MV.model.repository.classes.RepositoryContactFile" target="ccir2020MV.exceptions.InvalidFormatException">
-                  <point x="-114.0" y="-141.0" />
-                  <point x="495.800892857143" y="869.0" />
-                  <point x="552.353170289855" y="869.0" />
-                  <point x="552.353170289855" y="143.0" />
-                  <point x="952.0833333333333" y="143.0" />
-                  <point x="-112.66666666666663" y="59.0" />
-                </edge>
-                <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.repository.classes.RepositoryUserFile">
-                  <point x="-308.4583333333336" y="-85.5" />
-                  <point x="532.4964544513458" y="1907.0" />
-                  <point x="102.75" y="1907.0" />
-                  <point x="-92.25" y="141.0" />
+                  <point x="184.5" y="1054.0" />
+                  <point x="238.96527777777783" y="1054.0" />
+                  <point x="-119.25" y="141.0" />
                 </edge>
                 <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.base.User">
-                  <point x="-196.29166666666686" y="-85.5" />
-                  <point x="644.6631211180126" y="1887.0" />
-                  <point x="518.5853131469979" y="1887.0" />
-                  <point x="518.5853131469979" y="1222.0" />
-                  <point x="379.175892857143" y="1222.0" />
+                  <point x="-149.55555555555543" y="-85.5" />
+                  <point x="741.2049731182796" y="1689.0" />
+                  <point x="506.2046146953405" y="1689.0" />
+                  <point x="506.2046146953405" y="1054.0" />
+                  <point x="477.4652777777778" y="1054.0" />
                   <point x="119.25" y="141.0" />
                 </edge>
+                <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.repository.classes.RepositoryUserFile">
+                  <point x="-224.33333333333314" y="-85.5" />
+                  <point x="666.4271953405018" y="1699.0" />
+                  <point x="389.3366935483873" y="1699.0" />
+                  <point x="92.25" y="141.0" />
+                </edge>
                 <edge source="ccir2020MV.model.repository.classes.RepositoryActivityFile" target="ccir2020MV.model.repository.interfaces.RepositoryContact">
-                  <point x="-140.6250000000001" y="-154.5" />
-                  <point x="739.5008928571431" y="1503.0" />
-                  <point x="804.2547877846793" y="1503.0" />
-                  <point x="0.0" y="99.5" />
+                  <point x="-140.625" y="-154.5" />
+                  <point x="669.5035842293906" y="1330.0" />
+                  <point x="560.0106630824373" y="1330.0" />
+                  <point x="-76.0" y="99.5" />
                 </edge>
                 <edge source="ccir2020MV.model.repository.interfaces.RepositoryContact" target="ccir2020MV.model.base.Contact">
                   <point x="0.0" y="-99.5" />
-                  <point x="804.2547877846793" y="625.0" />
-                  <point x="1021.3214285714284" y="625.0" />
-                  <point x="-43.428571428571445" y="208.5" />
-                </edge>
-                <edge source="ccir2020MV.model.base.Contact" target="ccir2020MV.exceptions.InvalidFormatException">
-                  <point x="0.0" y="-208.5" />
-                  <point x="0.0" y="59.0" />
+                  <point x="636.0106630824373" y="447.0" />
+                  <point x="897.1991935483871" y="447.0" />
+                  <point x="-121.60000000000002" y="208.5" />
                 </edge>
                 <edge source="ccir2020MV.model.repository.classes.RepositoryUserFile" target="ccir2020MV.model.base.User">
-                  <point x="-123.0" y="-141.0" />
-                  <point x="72.0" y="1503.0" />
-                  <point x="0.0" y="1503.0" />
-                  <point x="0.0" y="1232.0" />
-                  <point x="140.67589285714303" y="1232.0" />
-                  <point x="-119.25" y="141.0" />
+                  <point x="123.0" y="-141.0" />
+                  <point x="420.0866935483873" y="1330.0" />
+                  <point x="392.12858422939064" y="1330.0" />
+                  <point x="392.12858422939064" y="1054.0" />
+                  <point x="397.9652777777778" y="1054.0" />
+                  <point x="39.75" y="141.0" />
                 </edge>
                 <edge source="ccir2020MV.model.repository.classes.RepositoryActivityFile" target="ccir2020MV.model.repository.interfaces.RepositoryActivity">
-                  <point x="140.6249999999999" y="-154.5" />
-                  <point x="1020.7508928571431" y="1503.0" />
-                  <point x="1037.953894927536" y="1503.0" />
+                  <point x="-46.875" y="-154.5" />
+                  <point x="763.2535842293906" y="1330.0" />
+                  <point x="758.0106630824373" y="1330.0" />
                   <point x="0.0" y="113.0" />
                 </edge>
-                <edge source="ccir2020MV.model.repository.classes.RepositoryContactFile" target="ccir2020MV.model.repository.interfaces.RepositoryContact">
-                  <point x="114.0" y="-141.0" />
-                  <point x="723.800892857143" y="869.0" />
-                  <point x="702.9214544513459" y="869.0" />
-                  <point x="-101.33333333333337" y="99.5" />
-                </edge>
                 <edge source="ccir2020MV.model.repository.classes.RepositoryActivityFile" target="ccir2020MV.model.base.Activity">
-                  <point x="46.874999999999886" y="-154.5" />
-                  <point x="927.0008928571431" y="1503.0" />
-                  <point x="839.9538949275361" y="1503.0" />
-                  <point x="839.9538949275361" y="1232.0" />
-                  <point x="943.2" y="1232.0" />
-                  <point x="-81.79999999999995" y="154.0" />
-                </edge>
-                <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.repository.classes.RepositoryContactFile">
-                  <point x="-84.12500000000011" y="-85.5" />
-                  <point x="756.8297877846793" y="1867.0" />
-                  <point x="592.7663949275362" y="1867.0" />
-                  <point x="592.7663949275362" y="1232.0" />
-                  <point x="685.800892857143" y="1232.0" />
-                  <point x="76.0" y="141.0" />
+                  <point x="140.625" y="-154.5" />
+                  <point x="950.7535842293906" y="1330.0" />
+                  <point x="994.125" y="1330.0" />
+                  <point x="994.125" y="1044.0" />
+                  <point x="938.8035842293907" y="1044.0" />
+                  <point x="0.0" y="154.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="64.0" y="1018.5" />
-              <SelectedNodes>
-                <node>ccir2020MV.model.repository.classes.RepositoryActivityFile</node>
-              </SelectedNodes>
+              <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="1432.5" />
+              <SelectedNodes />
               <Categories>
                 <Category>Fields</Category>
                 <Category>Constructors</Category>
@@ -216,29 +198,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvalidFormatException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/exceptions/InvalidFormatException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepositoryUserFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/repository/classes/RepositoryUserFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -267,7 +226,7 @@
       <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/base/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="1296">
               <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
               <folding />
             </state>
@@ -277,7 +236,7 @@
       <file leaf-file-name="RepositoryContactFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/repository/classes/RepositoryContactFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="594">
               <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="42" />
               <folding />
             </state>
@@ -343,7 +302,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -366,6 +325,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -412,15 +372,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ccir2020MV" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccir2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccir2020" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ccir2020MV" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -450,35 +401,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ccir2020MV" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccir2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccir2020" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ccir2020MV" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccir2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccir2020" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ccir2020MV" type="462c0819:PsiDirectoryNode" />
               <item name="startApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -622,42 +550,43 @@
       <workItem from="1521303495662" duration="6669000" />
       <workItem from="1521398713917" duration="2618000" />
       <workItem from="1521441744166" duration="327000" />
-      <workItem from="1521453947030" duration="1641000" />
+      <workItem from="1521453947030" duration="1844000" />
+      <workItem from="1521490743626" duration="688000" />
+      <workItem from="1522001198389" duration="501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11255000" />
+    <option name="totallyTimeSpent" value="12647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="260" y="20" width="1400" height="990" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34732273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35209712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35209712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -676,22 +605,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/startApp/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/repository/classes/RepositoryActivityFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4293">
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2830#2840#0" expanded="true" />
+            <element signature="e#2974#2984#0" expanded="true" />
+            <element signature="e#3456#3466#0" expanded="true" />
+            <element signature="e#3887#3897#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,10 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,6 +697,10 @@
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2830#2840#0" expanded="true" />
+            <element signature="e#2974#2984#0" expanded="true" />
+            <element signature="e#3456#3466#0" expanded="true" />
+            <element signature="e#3887#3897#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -810,10 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,6 +791,10 @@
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2830#2840#0" expanded="true" />
+            <element signature="e#2974#2984#0" expanded="true" />
+            <element signature="e#3456#3466#0" expanded="true" />
+            <element signature="e#3887#3897#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -904,10 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,16 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/repository/classes/RepositoryActivityFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3861">
-          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/base/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1041,29 +950,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/activities.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/exceptions/InvalidFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/repository/classes/RepositoryUserFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="189">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1086,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/repository/classes/RepositoryContactFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="594">
           <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="42" />
           <folding />
         </state>
@@ -1094,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/base/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="1296">
           <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding />
         </state>
@@ -1118,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/startApp/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="129" column="41" lean-forward="true" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
+        <state relative-caret-position="2997">
+          <caret line="129" column="41" lean-forward="false" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1289,10 +1186,167 @@
               <point x="76.0" y="141.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="64.0" y="1018.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="64.0" y="1019.0" />
           <SelectedNodes>
             <node>ccir2020MV.model.repository.classes.RepositoryActivityFile</node>
           </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/activities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ccir2020MV/model/repository/classes/RepositoryActivityFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2830#2840#0" expanded="true" />
+            <element signature="e#2974#2984#0" expanded="true" />
+            <element signature="e#3456#3466#0" expanded="true" />
+            <element signature="e#3887#3897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ccir2020MV.model.repository.classes.RepositoryActivityFile">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ccir2020MV.model.repository.classes.RepositoryActivityFile</OriginalElement>
+          <nodes>
+            <node x="570.5106630824373" y="1074.0">ccir2020MV.model.repository.interfaces.RepositoryActivity</node>
+            <node x="554.260528673835" y="1729.0">ccir2020MV.startApp.MainClass</node>
+            <node x="0.0" y="1087.5">ccir2020MV.model.repository.interfaces.RepositoryUser</node>
+            <node x="622.6285842293906" y="1350.0">ccir2020MV.model.repository.classes.RepositoryActivityFile</node>
+            <node x="112.5866935483873" y="1363.5">ccir2020MV.model.repository.classes.RepositoryUserFile</node>
+            <node x="199.21527777777783" y="729.0">ccir2020MV.model.base.User</node>
+            <node x="484.0106630824373" y="467.0">ccir2020MV.model.repository.interfaces.RepositoryContact</node>
+            <node x="734.3035842293907" y="716.0">ccir2020MV.model.base.Activity</node>
+            <node x="866.7991935483872" y="0.0">ccir2020MV.model.base.Contact</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.base.Contact">
+              <point x="299.1111111111112" y="-85.5" />
+              <point x="1189.8716397849462" y="1709.0" />
+              <point x="1164.8035842293907" y="1709.0" />
+              <point x="1164.8035842293907" y="437.0" />
+              <point x="1140.399193548387" y="437.0" />
+              <point x="121.59999999999988" y="208.5" />
+            </edge>
+            <edge source="ccir2020MV.model.repository.classes.RepositoryUserFile" target="ccir2020MV.model.repository.interfaces.RepositoryUser">
+              <point x="-123.0" y="-141.0" />
+              <point x="174.0866935483873" y="1330.0" />
+              <point x="184.5" y="1330.0" />
+              <point x="0.0" y="99.5" />
+            </edge>
+            <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.repository.classes.RepositoryActivityFile">
+              <point x="1.1368683772161603E-13" y="-85.5" />
+              <point x="890.7605286738351" y="1709.0" />
+              <point x="903.8785842293906" y="1709.0" />
+              <point x="93.75" y="154.5" />
+            </edge>
+            <edge source="ccir2020MV.model.base.Activity" target="ccir2020MV.model.repository.interfaces.RepositoryContact">
+              <point x="-136.33333333333337" y="-154.0" />
+              <point x="802.4702508960572" y="691.0" />
+              <point x="712.0106630824373" y="691.0" />
+              <point x="76.0" y="99.5" />
+            </edge>
+            <edge source="ccir2020MV.model.repository.interfaces.RepositoryActivity" target="ccir2020MV.model.base.Activity">
+              <point x="0.0" y="-113.0" />
+              <point x="758.0106630824373" y="1054.0" />
+              <point x="775.2035842293906" y="1054.0" />
+              <point x="-163.60000000000002" y="154.0" />
+            </edge>
+            <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.base.Activity">
+              <point x="74.77777777777794" y="-85.5" />
+              <point x="965.5383064516129" y="1699.0" />
+              <point x="1055.0106630824373" y="1699.0" />
+              <point x="1055.0106630824373" y="1054.0" />
+              <point x="1020.6035842293907" y="1054.0" />
+              <point x="81.80000000000007" y="154.0" />
+            </edge>
+            <edge source="ccir2020MV.model.base.Activity" target="ccir2020MV.model.base.Contact">
+              <point x="0.0" y="-154.0" />
+              <point x="938.8035842293907" y="691.0" />
+              <point x="971.4250000000001" y="691.0" />
+              <point x="971.4250000000001" y="447.0" />
+              <point x="957.9991935483872" y="447.0" />
+              <point x="-60.799999999999955" y="208.5" />
+            </edge>
+            <edge source="ccir2020MV.model.repository.interfaces.RepositoryUser" target="ccir2020MV.model.base.User">
+              <point x="0.0" y="-99.5" />
+              <point x="184.5" y="1054.0" />
+              <point x="238.96527777777783" y="1054.0" />
+              <point x="-119.25" y="141.0" />
+            </edge>
+            <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.base.User">
+              <point x="-149.55555555555543" y="-85.5" />
+              <point x="741.2049731182796" y="1689.0" />
+              <point x="506.2046146953405" y="1689.0" />
+              <point x="506.2046146953405" y="1054.0" />
+              <point x="477.4652777777778" y="1054.0" />
+              <point x="119.25" y="141.0" />
+            </edge>
+            <edge source="ccir2020MV.startApp.MainClass" target="ccir2020MV.model.repository.classes.RepositoryUserFile">
+              <point x="-224.33333333333314" y="-85.5" />
+              <point x="666.4271953405018" y="1699.0" />
+              <point x="389.3366935483873" y="1699.0" />
+              <point x="92.25" y="141.0" />
+            </edge>
+            <edge source="ccir2020MV.model.repository.classes.RepositoryActivityFile" target="ccir2020MV.model.repository.interfaces.RepositoryContact">
+              <point x="-140.625" y="-154.5" />
+              <point x="669.5035842293906" y="1330.0" />
+              <point x="560.0106630824373" y="1330.0" />
+              <point x="-76.0" y="99.5" />
+            </edge>
+            <edge source="ccir2020MV.model.repository.interfaces.RepositoryContact" target="ccir2020MV.model.base.Contact">
+              <point x="0.0" y="-99.5" />
+              <point x="636.0106630824373" y="447.0" />
+              <point x="897.1991935483871" y="447.0" />
+              <point x="-121.60000000000002" y="208.5" />
+            </edge>
+            <edge source="ccir2020MV.model.repository.classes.RepositoryUserFile" target="ccir2020MV.model.base.User">
+              <point x="123.0" y="-141.0" />
+              <point x="420.0866935483873" y="1330.0" />
+              <point x="392.12858422939064" y="1330.0" />
+              <point x="392.12858422939064" y="1054.0" />
+              <point x="397.9652777777778" y="1054.0" />
+              <point x="39.75" y="141.0" />
+            </edge>
+            <edge source="ccir2020MV.model.repository.classes.RepositoryActivityFile" target="ccir2020MV.model.repository.interfaces.RepositoryActivity">
+              <point x="-46.875" y="-154.5" />
+              <point x="763.2535842293906" y="1330.0" />
+              <point x="758.0106630824373" y="1330.0" />
+              <point x="0.0" y="113.0" />
+            </edge>
+            <edge source="ccir2020MV.model.repository.classes.RepositoryActivityFile" target="ccir2020MV.model.base.Activity">
+              <point x="140.625" y="-154.5" />
+              <point x="950.7535842293906" y="1330.0" />
+              <point x="994.125" y="1330.0" />
+              <point x="994.125" y="1044.0" />
+              <point x="938.8035842293907" y="1044.0" />
+              <point x="0.0" y="154.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="1432.5" />
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>

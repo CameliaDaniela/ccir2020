@@ -53,10 +53,13 @@ public class RepositoryContactFile implements RepositoryContact {
 		return new LinkedList<Contact>(contacts);
 	}
 
+
 	@Override
 	public void addContact(Contact contact) {
 		contacts.add(contact);
 	}
+
+
 
 	@Override
 	public boolean removeContact(Contact contact) {
@@ -97,5 +100,11 @@ public class RepositoryContactFile implements RepositoryContact {
 				return c;
 		return null;
 	}
+	public  void adaugContact(String name,String adress, String telefon) throws InvalidFormatException {
 
+
+			Contact c = new Contact(name, adress, telefon);
+			addContact(c);
+			System.out.printf("S-a adugat cu succes\n");
+	}
 }

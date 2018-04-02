@@ -67,14 +67,6 @@ public class RepositoryActivityFile implements RepositoryActivity{
 			return true;
 		}
 		return false;
-//		for (int i = 0; i< activities.size(); i++)
-//		{
-//			if (activity.intersect(activities.get(i))) return false;
-//		}	
-//		int index = activities.indexOf(activity);
-//		//if (index >= 0 ) return false;
-//		activities.add(activity);
-//		return true;
 	}
 
 	@Override

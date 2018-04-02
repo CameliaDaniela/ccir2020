@@ -77,20 +77,28 @@ public class Contact {
 		
 		String[] s = str.split("[\\p{Punct}\\s]+");
 		if (s.length>2) return false;
+		if(str.length()<=0)
+			return false;
 		return true;
 	}
 	
 	private static boolean validAddress(String str)
 	{
+		if(str.length()<=0)
+			return false;
 		return true;
 	}
 	
 	private static boolean validTelefon(String tel)
 	{
 		String[] s = tel.split("[\\p{Punct}\\s]+");
-		if (tel.charAt(0) == '+' && s.length == 2 ) return true;
-		if (tel.charAt(0) != '0')return false;
-		if (s.length != 1) return false;
+		//if (tel.charAt(0) == '+' && s.length == 2 ) return true;
+		String regex = "\\d+";
+		if(tel.matches(regex)==false)return false;
+		if (tel.length() < 9) return false;
+		if(tel.length()>10)return false;
+		if (tel.charAt(0) != '0'&& tel.charAt(1)!=7)return false;
+
 		return true;
 	}
 	

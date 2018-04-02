@@ -55,7 +55,7 @@ public class MainClass {
 				try {
 					switch (chosen) {
 					case 1:
-						adaugContact(contactRep, in);
+						citireContact(in,contactRep);
 						break;
 					case 2:
 						adaugActivitate(activityRep, contactRep, in, user);
@@ -143,42 +143,32 @@ public class MainClass {
 
 			activityRep.addActivity(act);
 			activityRep.saveActivities();
-			System.out.printf("S-a adugat cu succes\n");
+			System.out.printf("S-a adaugat cu succes\n");
 		} catch (IOException e) {
 			System.out.printf("Eroare de citire: %s\n" + e.getMessage());
 		}
 
 	}
-
-	private static void adaugContact(RepositoryContactFile contactRep,
-			BufferedReader in) {
-
+	private  static void citireContact(BufferedReader in,RepositoryContactFile repo)
+	{
+		System.out.printf("Adauga Contact: \n");
+		System.out.printf("Nume: ");
 		try {
-			System.out.printf("Adauga Contact: \n");
-			System.out.printf("Nume: ");
 			String name = in.readLine();
-			System.out.printf("Adresa: ");
-			String adress = in.readLine();
-			System.out.printf("Numar de telefon: ");
-			String telefon = in.readLine();
-			
-			Contact c = new Contact(name, adress, telefon);
 
-			contactRep.addContact(c);
+		System.out.printf("Adresa: ");
+		String adress = in.readLine();
+		System.out.printf("Numar de telefon: ");
+		String telefon = in.readLine();
+		repo.adaugContact(name,adress,telefon);
 
-			System.out.printf("S-a adugat cu succes\n");
 		} catch (IOException e) {
 			System.out.printf("Eroare de citire: %s\n" + e.getMessage());
 		} catch (InvalidFormatException e) {
-			if (e.getCause() != null)
-				System.out.printf("Eroare: %s - %s\n" + e.getMessage(), e
-						.getCause().getMessage());
-			else
-				System.out.printf("Eroare: %s\n" + e.getMessage());
+			e.printStackTrace();
 		}
-		contactRep.saveContracts();//nu era
-
 	}
+
 
 	private static void printMenu() {
 		System.out.printf("Please choose option:\n");

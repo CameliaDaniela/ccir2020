@@ -49,6 +49,7 @@ public class RepositoryActivityFile implements RepositoryActivity{
 		return new LinkedList<Activity>(activities);
 	}
 
+	//
 	@Override
 	public boolean addActivity(Activity activity) {
 		int  i = 0;
@@ -75,6 +76,10 @@ public class RepositoryActivityFile implements RepositoryActivity{
 		if (index<0) return false;
 		activities.remove(index);
 		return true;
+	}
+	public void removeActivityByID(int id)
+	{
+		activities.remove(id);
 	}
 
 	@Override

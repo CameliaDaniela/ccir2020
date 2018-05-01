@@ -123,7 +123,8 @@ public class MainClass {
 					Integer.parseInt(dateS.split("/")[0]) - 1,
 					Integer.parseInt(dateS.split("/")[1]),
 					Integer.parseInt(timeS.split(":")[0]),
-					Integer.parseInt(timeS.split(":")[1]));
+					Integer.parseInt(timeS.split(":")[1]),
+					0);
 			Date start = c.getTime();
 
 			System.out.printf("End Date(format: mm/dd/yyyy): ");
@@ -135,15 +136,19 @@ public class MainClass {
 					Integer.parseInt(dateE.split("/")[0]) - 1,
 					Integer.parseInt(dateE.split("/")[1]),
 					Integer.parseInt(timeE.split(":")[0]),
-					Integer.parseInt(timeE.split(":")[1]));
+					Integer.parseInt(timeE.split(":")[1]),
+					0);
 			Date end = c.getTime();
 
 			Activity act = new Activity(user.getName(), start, end,
 					new LinkedList<Contact>(), description);
 
-			activityRep.addActivity(act);
+			boolean adaugat=activityRep.addActivity(act);
 			activityRep.saveActivities();
-			System.out.printf("S-a adaugat cu succes\n");
+			if(adaugat)
+				System.out.printf("S-a adaugat cu succes\n");
+			else
+				System.out.println("err");
 		} catch (IOException e) {
 			System.out.printf("Eroare de citire: %s\n" + e.getMessage());
 		}
